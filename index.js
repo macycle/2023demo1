@@ -1,6 +1,6 @@
 $(function(){
     $("#btn").click(function(){
-        $("#wraper").text('xxxxxx').css('border-radius','20px').css('padding','20px')
+        $("#wraper>p").text('xxxxxx').css('border-radius','20px').css('padding','20px')
     })
 
     $("#btn").mouseenter(function(){
